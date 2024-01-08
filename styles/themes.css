@@ -10,7 +10,7 @@
   --background-color: var(--background-page);
   --header-background: var(--background-page);
   --label-stroke-color: var(--background-page);
-  --background-color-start: #007f0c;
+  --background-color-start: #007F0C;
   --background-color-end: #004306;
   --title-font-weight: "wght" 785;
   --text-font-weight: "wght" 465;
@@ -25,12 +25,42 @@
     --background-color: var(--background-page);
     --header-background: var(--background-page);
     --label-stroke-color: var(--background-page);
-    --background-color-start: #007f0c;
+    --background-color-start: #007F0C;
     --background-color-end: #004306;
     --title-font-weight: "wght" 785;
     --text-font-weight: "wght" 465;
-    --text-color: #00cc14;
+    --text-color: #00CC14;
     --mix-blend-color: var(--text-color);
+    --stroke-color: var(--text-color);
+  }
+}
+
+:root.theme-light {
+  --background-page: #FFF;
+  --header-background: var(--background-page);
+  --mix-blend-color: var(--background-page);
+  --label-stroke-color: var(--background-page);
+  --background-color: #D3D3D3;
+  --background-color-start: #E7E7E7;
+  --background-color-end: #1A1A1A;
+  --title-font-weight: "wght" 700;
+  --text-font-weight: "wght" 400;
+  --text-color: #000;
+  --stroke-color: var(--text-color);
+}
+
+@media (prefers-scheme: light) {
+  :root {
+    --background-page: #FFF;
+    --header-background: var(--background-page);
+    --mix-blend-color: var(--background-page);
+    --label-stroke-color: var(--background-page);
+    --background-color: #D3D3D3;
+    --background-color-start: #E7E7E7;
+    --background-color-end: #1A1A1A;
+    --title-font-weight: "wght" 700;
+    --text-font-weight: "wght" 400;
+    --text-color: #000;
     --stroke-color: var(--text-color);
   }
 }
