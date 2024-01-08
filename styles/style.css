@@ -22,6 +22,8 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  max-width: 696px;
+  margin: auto;
   font-family: var(--main-font-family);
   font-variation-settings: var(--text-font-weight);
   color: var(--text-color);
@@ -49,4 +51,16 @@
   background-attachment: fixed;
 }
 
+
+.header {
+  font-family: var(--accent-font-family);
+  margin-top: 14.5%;
+  padding: 19.3% 0 4%;
+  background: var(--header-background);
+  border: 2px solid var(--stroke-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 21px;
+}
 
