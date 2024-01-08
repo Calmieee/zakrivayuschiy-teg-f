@@ -45,8 +45,8 @@
       var(--background-color-end)
     ),
     var(--background-page);
-  background-size: 100% 960px;
-  background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
 }
+
 
