@@ -75,3 +75,24 @@
   text-transform: uppercase;
 }
 
+.theme-menu__list {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 4% 0 0 11%;
+}
+
+.theme-menu__button {
+  padding: 0;
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.theme-menu__button:disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}
