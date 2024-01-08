@@ -13,8 +13,14 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 
 */
+@supports (font-variation-settings: normal) {
+  .page {
+    font-family: var(--main-font-family);
+  }
+}
 
 .page {
+  font-family: var(--main-font-family);
   min-inline-size: 320px;
   min-block-size: 100dvb;
 }
