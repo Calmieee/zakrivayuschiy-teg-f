@@ -85,6 +85,7 @@
 }
 
 .theme-menu__button {
+  position: relative;
   padding: 0;
   text-transform: uppercase;
   background: none;
@@ -96,3 +97,15 @@
   opacity: 0.6;
   pointer-events: none;
 }
+
+.theme-menu__button:disabled::before {
+  content: "▶";
+  position: absolute;
+  left: -20px;
+  opacity: 0.6;
+  pointer-events: none;
+  
+}
+
+
+
