@@ -51,6 +51,7 @@
 
 @media (prefers-scheme: light) {
   :root {
+    --background-image: url(../images/light-background.png);
     --background-page: #FFF;
     --header-background: var(--background-page);
     --mix-blend-color: var(--background-page);
