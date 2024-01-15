@@ -107,9 +107,13 @@
   animation: arrow 0.5s ease-in-out infinite alternate;
 }
 
+.main {
+  margin-top: 14%;
+}
+
 .sprint {
   background-color: white;
-  
+
 }
 
 
