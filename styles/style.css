@@ -145,9 +145,11 @@
 
 .sprint-like-container-button {
   width: 128px;
-  padding: 5px 0;
+  padding: 9px 0;
   border: 2px solid var(--stroke-color);
   background-color: transparent;
+  font-size: 14px;
+  font-family: var(--accent-font-family);
 }
 
 
