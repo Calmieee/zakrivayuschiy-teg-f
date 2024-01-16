@@ -108,7 +108,7 @@
 }
 
 .main {
-  margin-top: 104px;
+  margin-top: 99px;
 }
 
 .sprint {
@@ -121,7 +121,7 @@
   font-family: var(--main-font-family);
   color: var(--text-color);
   font-variation-settings: var(--title-font-weight);
-  padding-left: 1.2%;
+  padding: 4px 10px;
 }
 
 .sprint-image {
