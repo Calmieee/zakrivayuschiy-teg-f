@@ -22,7 +22,14 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
-
+  color: var(--text-color, #000000);
+  font-family: var(--page-main-font-family, "Inter", sans-serif);
+  background-color: var(--page-background-color, #ffffff);
+  background-image: var(--page-background-image, none);
+  background-size: cover;
+  background-attachment: fixed;
+  font-variation-settings: "wght" var(--page-main-font-weight, 400);
+  padding-top: 100px;
 }
 
 
