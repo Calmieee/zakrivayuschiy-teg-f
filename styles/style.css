@@ -137,7 +137,17 @@
   padding: 4.5% 0 0 3%;
 }
 
+.sprint-like-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 11% 3.5%;
+}
 
+.sprint-like-container-button {
+  width: 128px;
+  padding: 5px 0;
+  border: 2px solid var(--stroke-color);
+}
 
 
 
