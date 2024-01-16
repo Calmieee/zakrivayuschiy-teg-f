@@ -20,3 +20,18 @@
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
 }
 
+:root.theme-dark {
+  --headings-font-weight: 785;
+  --page-main-font-weight: 465;
+  --button-text-color: var(--color-green, #00cc14);
+  --text-color: var(--color-green, #00cc14);
+  --page-background-color: var(--color-black, #000000);
+  --page-background-image: repeating-linear-gradient(
+      to left,
+      #000000 0 2px,
+      #00000000 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #000000 0 2px, #00000000 2px 4px),
+    linear-gradient(to bottom, #007f0c, #004306);
+}
+
