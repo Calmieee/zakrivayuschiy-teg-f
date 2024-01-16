@@ -120,13 +120,18 @@
   font-size: 18px;
   font-family: var(--main-font-family);
   color: var(--text-color);
-  font-weight: var(--title-font-weight);
+  font-variation-settings: var(--title-font-weight);
   padding-left: 1.2%;
 }
 
 .sprint-image {
   width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
+
+
+
 
 
 
