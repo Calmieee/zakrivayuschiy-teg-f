@@ -147,6 +147,7 @@
   width: 128px;
   padding: 5px 0;
   border: 2px solid var(--stroke-color);
+  background-color: transparent;
 }
 
 
