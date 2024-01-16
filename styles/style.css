@@ -108,14 +108,26 @@
 }
 
 .main {
-  margin-top: 14%;
+  margin-top: 104px;
 }
 
 .sprint {
-  background-color: white;
+  background-color: var(--background-page);
+  border: 2px solid #000;
 }
 
+.sprint-heading {
+  font-size: 18px;
+  font-family: var(--main-font-family);
+  color: var(--text-color);
+  font-weight: var(--title-font-weight);
+  
+  padding-left: 1.2%;
+}
 
+.sprint-image {
+  width: 100%;
+}
 
 
 
