@@ -92,6 +92,12 @@
   margin-top: 99px;
 }
 
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
 .card {
   background-color: var(--background-page);
   border: 2px solid var(--stroke-color);
