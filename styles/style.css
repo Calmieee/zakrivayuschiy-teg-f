@@ -92,12 +92,12 @@
   margin-top: 104px;
 }
 
-.sprint {
+.card {
   background-color: var(--background-page);
   border: 2px solid var(--stroke-color);
 }
 
-.sprint-heading {
+.card-heading {
   font-size: 18px;
   font-family: var(--main-font-family);
   color: var(--text-color);
@@ -105,26 +105,26 @@
   padding-left: 1.2%;
 }
 
-.sprint-image {
+.card-image {
   width: 100%;
   object-fit: cover;
   object-position: center;
 }
 
-.sprint-description {
+.card-description {
   font-size: 18px;
   color: var(--text-color);
   font-variation-settings: var(--text-font-weight);
   padding: 4.5% 0 0 3%;
 }
 
-.sprint-like-container {
+.card-like-container {
   display: flex;
   justify-content: flex-end;
   margin: 11% 3.5%;
 }
 
-.sprint-like-container-button {
+.card-like-container-button {
   width: 128px;
   padding: 9px 0;
   border: 2px solid var(--stroke-color);
