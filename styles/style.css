@@ -111,15 +111,23 @@
 
 .card-image-label {
   position: absolute;
-  top: 25px;
-  right: 20px;
+  top: 26px;
+  right: 24px;
   z-index: 1;
   font-size: 14px;
   font-family: var(--accent-font-family);
   color: var(--text-color);
+  opacity: 0.5;
   mix-blend-mode: hard-light;
   text-transform: uppercase;
   text-shadow: 0 0 1px var(--background-page);
+}
+
+@supports (-webkit-text-stroke: 1px var(--background-page)) {
+  .card-image-label {
+    text-shadow: none;
+    -webkit-text-stroke: 1px var(--background-page);
+  }
 }
 
 .card-image {
