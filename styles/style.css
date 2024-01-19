@@ -105,6 +105,18 @@
   padding: 5px 10px;
 }
 
+.card-image-container {
+  position: relative;
+}
+
+.card-image-label {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  z-index: 1;
+
+}
+
 .card-image {
   width: 100%;
   object-fit: cover;
