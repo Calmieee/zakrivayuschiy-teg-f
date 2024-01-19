@@ -89,7 +89,7 @@
 }
 
 .main {
-  margin-top: 104px;
+  margin-top: 99px;
 }
 
 .card {
@@ -102,26 +102,27 @@
   font-family: var(--main-font-family);
   color: var(--text-color);
   font-variation-settings: var(--title-font-weight);
-  padding-left: 1.2%;
+  padding: 4px 10px;
 }
 
 .card-image {
   width: 100%;
   object-fit: cover;
   object-position: center;
+  aspect-ratio: 1 / 1.012;
 }
 
 .card-description {
   font-size: 18px;
   color: var(--text-color);
   font-variation-settings: var(--text-font-weight);
-  padding: 4.5% 0 0 3%;
+  padding: 3% 0 0 3%;
 }
 
 .card-like-container {
   display: flex;
   justify-content: flex-end;
-  margin: 11% 3.5%;
+  margin: 11% 3.5% 3.5%;
 }
 
 .card__like-button {
