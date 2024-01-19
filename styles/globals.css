@@ -8,7 +8,8 @@
   box-sizing: border-box;
 }
 
-body {
+body,
+blockquote {
   margin: 0;
 }
 
@@ -51,3 +52,4 @@ ol {
   clip-path: inset(50%);
   white-space: nowrap;
 }
+
