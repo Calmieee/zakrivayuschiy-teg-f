@@ -95,7 +95,7 @@
 .card-list {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 51px;
 }
 
 .card {
@@ -146,7 +146,7 @@
 .card-description {
   display: flex;
   flex-direction: column;
-  gap: 29px;
+  gap: 28.5px;
   font-size: 18px;
   color: var(--text-color);
   font-variation-settings: var(--text-font-weight);
@@ -167,4 +167,13 @@
   background-color: transparent;
   font-size: 14px;
   font-family: var(--accent-font-family);
+}
+
+footer {
+  margin-top: 60px;
+}
+
+.footer-button {
+  padding: 30px 100px;
+  
 }
