@@ -102,14 +102,14 @@
   font-family: var(--main-font-family);
   color: var(--text-color);
   font-variation-settings: var(--title-font-weight);
-  padding: 4px 10px;
+  padding: 5px 10px;
 }
 
 .card-image {
   width: 100%;
   object-fit: cover;
   object-position: center;
-  
+  aspect-ratio: 1 / 1;
 }
 
 .card-description {
@@ -119,14 +119,14 @@
   font-size: 18px;
   color: var(--text-color);
   font-variation-settings: var(--text-font-weight);
-  padding: 3% 0 0 3%;
+  padding: 3.4% 0 0 3.4%;
 }
 
 
 .card-like-container {
   display: flex;
   justify-content: flex-end;
-  margin: 3.6% 3.5% 3.5%;
+  margin: 3.6% 3.8% 3.7%;
 }
 
 .card__like-button {
