@@ -12,18 +12,18 @@
   --label-stroke-color: var(--background-page);
   --background-page-image: repeating-linear-gradient(
     to left,
-    #000 0 2px,
-    #000 2px 4px
+    #000000 0 2px,
+    #00000000 2px 4px
   ),
   repeating-linear-gradient(
     to bottom,
-    #000 0 2px,
-    #000 2px 4px
+    #000000 0 2px,
+    #00000000 2px 4px
   ),
-  linear-gradient(to bottom,#007F0C,#004306);
+  linear-gradient(to bottom, #007F0C, #004306);
   --title-font-weight: "wght" 785;
   --text-font-weight: "wght" 465;
-  --text-color: #00cc14;
+  --text-color: #00CC14;
   --mix-blend-color: var(--text-color);
   --stroke-color: var(--text-color);
 }
@@ -36,15 +36,15 @@
     --label-stroke-color: var(--background-page);
     --background-page-image: repeating-linear-gradient(
       to left,
-      #000 0 2px,
-      #000 2px 4px
+      #000000 0 2px,
+      #00000000 2px 4px
     ),
     repeating-linear-gradient(
       to bottom,
-      #000 0 2px,
-      #000 2px 4px
+       #000000 0 2px,
+       #00000000 2px 4px
     ),
-    linear-gradient(to bottom,#007F0C,#004306);
+    linear-gradient(to bottom, #007F0C, #004306);
     --title-font-weight: "wght" 785;
     --text-font-weight: "wght" 465;
     --text-color: #00CC14;

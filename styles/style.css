@@ -27,6 +27,7 @@
   font-family: var(--main-font-family);
   font-variation-settings: var(--text-font-weight);
   color: var(--text-color);
+  background-image: var(--background-page-image);
   background-size: cover;
   background-attachment: fixed;
 }
