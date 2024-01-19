@@ -124,7 +124,7 @@
   margin: 11% 3.5%;
 }
 
-.card-like-container-button {
+.card__like-button {
   width: 128px;
   padding: 9px 0;
   border: 2px solid var(--stroke-color);
