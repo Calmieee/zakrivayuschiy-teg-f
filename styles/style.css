@@ -22,7 +22,7 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  max-width: 696px;
+  max-width: 700px;
   margin: auto;
   font-family: var(--main-font-family);
   font-variation-settings: var(--text-font-weight);
@@ -36,7 +36,7 @@
 .header {
   font-family: var(--accent-font-family);
   margin-top: 14.5%;
-  padding: 19.3% 0 4%;
+  padding: 19.3% 0 3.6%;
   background: var(--header-background);
   border: 2px solid var(--stroke-color);
   display: flex;
@@ -109,20 +109,24 @@
   width: 100%;
   object-fit: cover;
   object-position: center;
-  aspect-ratio: 1 / 1.012;
+  
 }
 
 .card-description {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
   font-size: 18px;
   color: var(--text-color);
   font-variation-settings: var(--text-font-weight);
   padding: 3% 0 0 3%;
 }
 
+
 .card-like-container {
   display: flex;
   justify-content: flex-end;
-  margin: 11% 3.5% 3.5%;
+  margin: 3.6% 3.5% 3.5%;
 }
 
 .card__like-button {
