@@ -22,14 +22,33 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  color: var(--text-color, #000000);
-  font-family: var(--page-main-font-family, "Inter", sans-serif);
-  background-color: var(--page-background-color, #ffffff);
-  background-image: var(--page-background-image, none);
+  max-width: 696px;
+  margin: auto;
+  font-family: var(--main-font-family);
+  font-variation-settings: var(--text-font-weight);
+  color: var(--text-color);
+  background: repeating-linear-gradient(
+      90deg,
+      var(--background-color),
+      var(--background-color) 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      180deg,
+      var(--background-color-start),
+      var(--background-color-end) 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      180deg,
+      var(--background-color-start) 0.01%,
+      var(--background-color-end)
+    ),
+    var(--background-page);
   background-size: cover;
   background-attachment: fixed;
-  font-variation-settings: "wght" var(--page-main-font-weight, 400);
-  padding-top: 100px;
 }
 
 
@@ -89,7 +108,7 @@
 }
 
 .main {
-  margin-top: 99px;
+  margin-top: 104px;
 }
 
 .sprint {
@@ -102,7 +121,7 @@
   font-family: var(--main-font-family);
   color: var(--text-color);
   font-variation-settings: var(--title-font-weight);
-  padding: 4px 10px;
+  padding-left: 1.2%;
 }
 
 .sprint-image {
@@ -132,9 +151,3 @@
   font-size: 14px;
   font-family: var(--accent-font-family);
 }
-
-
-
-
-
-
