@@ -10,6 +10,17 @@
   --background-color: var(--background-page);
   --header-background: var(--background-page);
   --label-stroke-color: var(--background-page);
+  --background-page-image: repeating-linear-gradient(
+    to left,
+    #000 0 2px,
+    #000 2px 4px
+  ),
+  repeating-linear-gradient(
+    to bottom,
+    #000 0 2px,
+    #000 2px 4px
+  ),
+  linear-gradient(to bottom,#007F0C,#004306);
   --title-font-weight: "wght" 785;
   --text-font-weight: "wght" 465;
   --text-color: #00cc14;
@@ -23,6 +34,17 @@
     --background-color: var(--background-page);
     --header-background: var(--background-page);
     --label-stroke-color: var(--background-page);
+    --background-page-image: repeating-linear-gradient(
+      to left,
+      #000 0 2px,
+      #000 2px 4px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #000 0 2px,
+      #000 2px 4px
+    ),
+    linear-gradient(to bottom,#007F0C,#004306);
     --title-font-weight: "wght" 785;
     --text-font-weight: "wght" 465;
     --text-color: #00CC14;
