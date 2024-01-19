@@ -3,5 +3,7 @@
 :root {
   --main-font-family: Inter, sans-serif;
   --accent-font-family: PressStart2P, monospace;
-  --heart-color: #F00;
+  --like-main-body-color: none;
+  --like-contour-color: var(--text-color, black);
+  --like-sparks-color: #f00;
 }
