@@ -114,7 +114,12 @@
   top: 25px;
   right: 20px;
   z-index: 1;
-
+  font-size: 14px;
+  font-family: var(--accent-font-family);
+  color: var(--text-color);
+  mix-blend-mode: hard-light;
+  text-transform: uppercase;
+  text-shadow: 0 0 1px var(--background-page);
 }
 
 .card-image {
