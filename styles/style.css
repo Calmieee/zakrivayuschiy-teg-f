@@ -14,6 +14,11 @@
 
 */
 
+.button__text {
+  font-size: 14px;
+  font-family: var(--accent-font-family);
+}
+
 @supports (font-variation-settings: normal) {
   .page {
     font-family: var(--main-font-family);
@@ -176,8 +181,6 @@
   padding: 10px 35px;
   border: 2px solid var(--stroke-color);
   background-color: transparent;
-  font-size: 14px;
-  font-family: var(--accent-font-family);
 }
 
 .footer {
