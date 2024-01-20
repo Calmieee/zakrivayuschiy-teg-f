@@ -96,7 +96,7 @@
 .card-list {
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 52px;
 }
 
 .card {
