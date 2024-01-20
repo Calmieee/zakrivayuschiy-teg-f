@@ -14,6 +14,11 @@
 
 */
 
+.button__text {
+  font-family: var(--accent-font-family);
+}
+
+
 @supports (font-variation-settings: normal) {
   .page {
     font-family: var(--main-font-family);
@@ -178,10 +183,6 @@
   background-color: transparent;
   font-size: 14px;
   appearance: none;
-}
-
-.button__text {
-  font-family: var(--accent-font-family);
 }
 
 .footer {
