@@ -14,10 +14,6 @@
 
 */
 
-.like-icon {
-  width: 36px;
-}
-
 @supports (font-variation-settings: normal) {
   .page {
     font-family: var(--main-font-family);
@@ -163,16 +159,19 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  gap: 5px;
-  margin: 3.7% 3.7% 3.7%;
+  margin: 3.7% 3.7% 3.2%;
+  gap: 6px;
 }
 
 .card__icon-button {
+  padding: 0;
   background-color: transparent;
   border: none;
 }
 
-
+.like-icon {
+  width: 36px;
+}
 
 .card__like-button {
   padding: 10px 35px;
