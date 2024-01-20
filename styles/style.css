@@ -180,3 +180,20 @@
   font-family: var(--accent-font-family);
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.footer-button {
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px 74px;
+  background-color: var(--background-page);
+  border: 2px solid var(--stroke-color);
+}
+
+.footer-button__icon {
+  width: 21px;
+}
