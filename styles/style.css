@@ -126,7 +126,6 @@
   color: var(--text-color);
   opacity: 0.5;
   mix-blend-mode: hard-light;
-  text-transform: uppercase;
   text-shadow: 0 0 1px var(--background-page);
 }
 
