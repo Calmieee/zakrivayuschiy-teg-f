@@ -13,6 +13,11 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 
 */
+
+.like-icon {
+  width: 36px;
+}
+
 @supports (font-variation-settings: normal) {
   .page {
     font-family: var(--main-font-family);
