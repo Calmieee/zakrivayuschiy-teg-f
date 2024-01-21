@@ -13,11 +13,47 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 
 */
-
-.button__text {
-  font-family: var(--accent-font-family);
+.button {
+  position: relative;
+  z-index: 1;
+  border: 2px solid var(--stroke-color);
+  font-size: 14px;
+  cursor: pointer;
+  background-color: var(--background-page);
+  transition: box-shadow 0.3s ease;
 }
 
+.button:focus {
+  outline: none;
+}
+
+.button__text,
+.footer-button__icon {
+  color: var(--background-page);
+  font-family: var(--accent-font-family);
+  mix-blend-mode: difference;
+}
+
+.button:focus-visible {
+  box-shadow: 2px 2px 0px 0px var(--text-color);
+}
+
+.button:hover::before {
+  transform: scaleX(1);
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--text-color);
+  transition: transform 0.5s ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left;
+  inline-size: 100%;
+  block-size: 100%;
+}
 
 @supports (font-variation-settings: normal) {
   .page {
@@ -179,10 +215,6 @@
 
 .card__like-button {
   padding: 9px 35px;
-  border: 2px solid var(--stroke-color);
-  background-color: transparent;
-  font-size: 14px;
-  appearance: none;
 }
 
 .footer {
@@ -198,9 +230,6 @@
   align-items: flex-end;
   gap: 8px;
   padding: 16px 20px;
-  background-color: var(--background-page);
-  border: 2px solid var(--stroke-color);
-  font-size: 14px;
 }
 
 .footer-button__icon {
