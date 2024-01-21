@@ -488,14 +488,31 @@
       </ul>
     </main>
     <footer class="footer">
-      <button class="footer-button button">
+      <button
+       class="footer-button button"
+       onclick="window.modal.showModal();"
+       aria-controls="modal"
+       type="button"
+       >
         <svg class="footer-button__icon" viewBox="0 0 29 28">
           <use href="./svg/floppy.svg#floppy" />
         </svg>
         <span class="button__text">Сохранить на память</span>
       </button>
     </footer>
-    
+    <dialog class="modal" id="modal">
+      <div class="modal__content">
+        <svg class="modal__icon" viewBox="0 0 29 28">
+          <use href="./svg/floppy.svg#floppy" />
+        </svg>
+        <p>Вставьте дискету, чтобы продолжить</p>
+      </div>
+      <form method="dialog">
+        <button class="button modal__button" type="submit">
+          <span class="button__text">ок</span>
+        </button>
+      </form>
+    </dialog>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
