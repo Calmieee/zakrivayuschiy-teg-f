@@ -29,7 +29,7 @@
 
 .button__text,
 .footer-button__icon {
-  color: var(--background-page);
+  color: var(--button-text-color);
   font-family: var(--accent-font-family);
   mix-blend-mode: difference;
 }
