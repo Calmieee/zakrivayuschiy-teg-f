@@ -13,6 +13,35 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 
 */
+
+.filter-grayscale {
+  filter: grayscale(70%);
+}
+
+.filter-saturate {
+  filter: saturate(250%);
+}
+
+.filter-multiple {
+  filter: contrast(50%) hue-rotate(35deg) saturate(130%);
+}
+
+.filter-invert {
+  filter: invert(100%);
+}
+
+.filter-sepia {
+  filter: sepia(90%);
+}
+
+.filter-blur {
+  filter: blur(10px);
+}
+
+.filter-hue-rotate {
+  filter: hue-rotate(210deg);
+}
+
 .button {
   position: relative;
   z-index: 1;
