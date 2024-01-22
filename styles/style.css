@@ -264,6 +264,7 @@
   height: 38px;
   border: 2px solid transparent;
   transition: border-color 0.3s ease;
+  cursor: pointer;
 }
 
 .card__icon-button:focus {
