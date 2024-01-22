@@ -276,4 +276,7 @@
   border: 2px solid var(--stroke-color);
 }
 
-
+.modal::backdrop {
+  opacity: 0.75;
+  background: #000;
+}
