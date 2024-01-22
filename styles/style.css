@@ -266,3 +266,14 @@
 .footer-button__icon {
   width: 21px;
 }
+
+.modal {
+  background-color: var(--background-page);
+  font-family: var(--accent-font-family);
+  color: var(--text-color);
+  max-width: 355px;
+  text-transform: uppercase;
+  border: 2px solid var(--stroke-color);
+}
+
+
