@@ -103,7 +103,7 @@
   max-width: 700px;
   margin: auto;
   font-family: var(--main-font-family);
-  font-variation-settings: var(--text-font-weight);
+  font-variation-settings: var(--main-font-family);
   color: var(--text-color);
   background-image: var(--background-page-image);
   background-size: cover;
