@@ -42,6 +42,8 @@
 }
 
 .button {
+  display: flex;
+  align-items: center;
   position: relative;
   z-index: 1;
   border: 2px solid var(--stroke-color);
@@ -105,8 +107,8 @@
 
 .header {
   font-family: var(--accent-font-family);
-  margin-top: 14.5%;
-  padding: 19.3% 0 3.6%;
+  margin-top: 14.4%;
+  padding: 19.3% 0 3.4%;
   background: var(--header-background);
   border: 2px solid var(--stroke-color);
   display: flex;
@@ -131,7 +133,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 14px;
+  gap: 12px;
   padding: 4% 0 0 11%;
 }
 
@@ -183,7 +185,7 @@
 }
 
 .main {
-  margin-top: 99px;
+  margin-top: 102px;
 }
 
 .card-list {
@@ -251,8 +253,8 @@
 .card-like-container {
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
-  margin: 3.6% 3.7% 3.1%;
+  align-items: center;
+  margin: 3.3% 3.7% 3.3%;
   gap: 6px;
 }
 
@@ -263,17 +265,17 @@
 }
 
 .like-icon {
-  width: 36px;
+  width: 39px;
 }
 
 .card__like-button {
-  padding: 9px 35px;
+  padding: 10px 35px;
 }
 
 .footer {
   display: flex;
   justify-content: center;
-  margin-top: 52px;
+  margin-top: 50px;
   margin-bottom: 104px;
 }
 
