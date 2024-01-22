@@ -32,6 +32,10 @@
   transform-origin: center;
 }
 
+.like-icon .sparks {
+  opacity: 0;
+}
+
 
 @keyframes arrow {
   0% {
