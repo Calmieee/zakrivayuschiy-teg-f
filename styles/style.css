@@ -137,6 +137,13 @@
   text-decoration: none;
 }
 
+/* фикс горизонтального скролла из-за размера шрифта */
+@media (width < 400px) {
+  .header-link {
+    font-size: clamp(2.5rem, -0.773rem + 16.364vw, 3.063rem);
+  }
+}
+
 .header-title {
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   text-transform: uppercase;
