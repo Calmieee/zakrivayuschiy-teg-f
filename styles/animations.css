@@ -28,7 +28,9 @@
   transition: fill 0.1s linear;
 }
 
-
+.like-icon .heart {
+  transform-origin: center;
+}
 
 
 @keyframes arrow {
