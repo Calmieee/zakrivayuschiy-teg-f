@@ -262,7 +262,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin: 3.4% 3.7% 3.4%;
+  margin: 3.4% 3.7% 3.5%;
   gap: 3px;
 }
 
@@ -294,7 +294,7 @@
 .footer {
   display: flex;
   justify-content: center;
-  margin-top: 55px;
+  margin-top: 49px;
   margin-bottom: 104px;
 }
 
