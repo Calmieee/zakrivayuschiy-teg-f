@@ -103,7 +103,7 @@
   max-width: 700px;
   margin: auto;
   font-family: var(--main-font-family);
-  font-variation-settings: var(--main-font-family);
+  font-variation-settings: var(--text-font-weight);
   color: var(--text-color);
   background-image: var(--background-page-image);
   background-size: cover;
@@ -137,7 +137,7 @@
   text-decoration: none;
 }
 
-/* фикс горизонтального скролла из-за размера шрифта */
+/* фикс горизонтального скролла из-за размера шрифта при width < 360px */
 @media (width < 400px) {
   .header-link {
     font-size: clamp(2.5rem, -0.773rem + 16.364vw, 3.063rem);
@@ -222,7 +222,6 @@
 
 .card-heading {
   font-size: 18px;
-  font-family: var(--main-font-family);
   color: var(--text-color);
   font-variation-settings: var(--title-font-weight);
   padding: 3.7px 10px;
