@@ -13,35 +13,32 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 
 */
-/* TO DO - задать стили модальному окну; 
-            сделать анимацию серцечка
-            и все hover, focus состояния для кнопок(+ сбросить оутлайн у сердцка и в хейдере) */
-.filter-grayscale {
-  filter: grayscale(70%);
-}
-
 .filter-saturate {
-  filter: saturate(250%);
-}
-
-.filter-multiple {
-  filter: contrast(50%) hue-rotate(35deg) saturate(130%);
-}
-
-.filter-invert {
-  filter: invert(100%);
-}
-
-.filter-sepia {
-  filter: sepia(90%);
-}
-
-.filter-blur {
-  filter: blur(10px);
+  filter: saturate(360%);
 }
 
 .filter-hue-rotate {
-  filter: hue-rotate(210deg);
+  filter: hue-rotate(30deg);
+}
+
+.filter-grayscale {
+  filter: grayscale(50%);
+}
+
+.filter-invert {
+  filter: invert(80%);
+}
+
+.filter-sepia {
+  filter: sepia(80%);
+}
+
+.filter-blur {
+  filter: blur(20px);
+}
+
+.filter-multiple {
+  filter: hue-rotate(90deg) saturate(250%) grayscale(20%) invert(25%) blur(2px);
 }
 
 .button {
@@ -213,6 +210,7 @@
   object-fit: cover;
   object-position: center;
   aspect-ratio: 1 / 1;
+  border-bottom: 2px solid var(--stroke-color);
 }
 
 .card-description {
