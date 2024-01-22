@@ -69,19 +69,19 @@
 }
 
 @keyframes heart {
-  from {
+  0% {
     transform: scale(1);
   }
-  to {
+  100% {
     transform: scale(1.5);
   }
 }
 
 @keyframes sparks {
-  from {
+  0% {
     opacity: 0;
   }
-  to {
+  100% {
     opacity: 1;
   }
 }
