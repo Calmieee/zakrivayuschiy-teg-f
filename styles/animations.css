@@ -9,7 +9,6 @@
 ✦ card__icon-button — для кнопки, оборачивающей иконку
 ✦ is-liked — для обозначения состояния лайкнутой иконки в виде сердца
 ✦ button__text — для обозначения текстового элемента внутри кнопки
-  обновление animations.css
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
 
@@ -45,6 +44,31 @@
   fill: var(--like-contour-color);
   transition: fill 0.3s linear 0.05s;
 }
+
+.like-icon.is-liked .core {
+  fill: var(--like-sparks-color, #ff0000);
+  transition: fill 0.3s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @keyframes arrow {
   0% {
