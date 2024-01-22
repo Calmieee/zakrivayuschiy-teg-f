@@ -36,6 +36,15 @@
   opacity: 0;
 }
 
+.like-icon:hover .core {
+  fill: var(--like-contour-color);
+  transition: fill 0.3s linear;
+}
+
+.like-icon:hover .main-body {
+  fill: var(--like-contour-color);
+  transition: fill 0.3s linear 0.05s;
+}
 
 @keyframes arrow {
   0% {
