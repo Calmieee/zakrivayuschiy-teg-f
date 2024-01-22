@@ -225,6 +225,7 @@
   color: var(--text-color);
   font-variation-settings: var(--title-font-weight);
   padding: 3.7px 10px;
+  border-bottom: 2px solid var(--stroke-color);
 }
 
 .card-image-container {
@@ -272,7 +273,7 @@
   font-size: 18px;
   color: var(--text-color);
   font-variation-settings: var(--text-font-weight);
-  padding: 3.8% 3.5% 0 3.7%;
+  padding: 3.5% 3.5% 0 3.7%;
 }
 
 @media (width < 400px) {
