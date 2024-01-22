@@ -68,6 +68,15 @@
   animation: sparks 0.3s ease-in 0.3s 1 alternate;
 }
 
+@keyframes heart {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+
 
 
 
