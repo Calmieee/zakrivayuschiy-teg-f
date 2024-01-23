@@ -55,6 +55,26 @@
   }
 }
 
+:root.theme-light {
+  --background-page: #FFF;
+  --header-background: var(--background-page);
+  --mix-blend-color: var(--background-page);
+  --label-stroke-color: var(--background-page);
+  --background-color: #D3D3D3;
+  --background-page-image: repeating-linear-gradient(
+      to left,
+      #d3d3d3 0 2px,
+      #d3d3d300 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, #d3d3d300 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  --title-font-weight: "wght" 700;
+  --text-font-weight: "wght" 400;
+  --text-color: #000;
+  --stroke-color: var(--text-color);
+  --button-text-color: var(--background-page);
+}
+
 @media (prefers-scheme: light) {
   :root {
     --background-page: #FFF;
