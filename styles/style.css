@@ -207,13 +207,10 @@
 }
 
 .main {
-  margin-top: 102px;
-}
-
-.card-list {
   display: flex;
   flex-direction: column;
   gap: 52px;
+  margin-top: 102px;
 }
 
 .card {
