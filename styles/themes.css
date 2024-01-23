@@ -26,7 +26,7 @@
   --text-color: #00CC14;
   --mix-blend-color: var(--text-color);
   --stroke-color: var(--text-color);
-  --button-text-color: var(var(--text-color));
+  --button-text-color: var(--text-color);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -51,7 +51,7 @@
     --text-color: #00CC14;
     --mix-blend-color: var(--text-color);
     --stroke-color: var(--text-color);
-    --button-text-color: var(var(--text-color));
+    --button-text-color: var(--text-color);
   }
 }
 
