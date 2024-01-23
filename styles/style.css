@@ -65,8 +65,8 @@
 
 .button__text,
 .footer-button__icon {
-  color: var(--button-text-color, #fff );
-  font-family: var(--accent-font-family,"PressStart2P", monospace );
+  color: var(--button-text-color, #fff);
+  font-family: var(--accent-font-family,"PressStart2P", monospace);
   mix-blend-mode: difference;
 }
 
@@ -112,11 +112,11 @@
 
 
 .header {
-  font-family: var(--accent-font-family);
+  font-family:  var(--accent-font-family,"PressStart2P", monospace);
   margin-top: 14.4%;
   padding: 19.3% 0 3.4%;
-  background: var(--header-background);
-  border: 2px solid var(--stroke-color);
+  background: var(--header-background, #fff);
+  border: 2px solid var(--stroke-color, #000);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -216,8 +216,8 @@
 }
 
 .card {
-  background-color: var(--background-page);
-  border: 2px solid var(--stroke-color);
+  background-color: var(--background-page, #fff);
+  border: 2px solid var(--stroke-color, #000);
 }
 
 .card-heading {
@@ -225,7 +225,7 @@
   color: var(--text-color);
   font-variation-settings: var(--title-font-weight);
   padding: 3.7px 10px;
-  border-bottom: 2px solid var(--stroke-color);
+  border-bottom: 2px solid var(--stroke-color, #000);
 }
 
 .card-image-container {
@@ -238,11 +238,11 @@
   right: 24px;
   z-index: 1;
   font-size: 14px;
-  font-family: var(--accent-font-family);
+  font-family:  var(--accent-font-family,"PressStart2P", monospace);
   color: var(--text-color);
   opacity: 0.5;
   mix-blend-mode: hard-light;
-  text-shadow: 0 0 1px var(--background-page);
+  text-shadow: 0 0 1px var(--background-page, #fff);
 }
 
 @media (width < 400px) {
@@ -251,10 +251,10 @@
    }
 }
 
-@supports (-webkit-text-stroke: 1px var(--background-page)) {
+@supports (-webkit-text-stroke: 1px var(--background-page, #fff)) {
   .card-image-label {
     text-shadow: none;
-    -webkit-text-stroke: 1px var(--background-page);
+    -webkit-text-stroke: 1px var(--background-page, #fff);
   }
 }
 
@@ -263,7 +263,7 @@
   object-fit: cover;
   object-position: center;
   aspect-ratio: 1 / 1;
-  border-bottom: 2px solid var(--stroke-color);
+  border-bottom: 2px solid var(--stroke-color, #000);
 }
 
 .card-description {
@@ -272,7 +272,7 @@
   gap: 28.5px;
   font-size: 18px;
   color: var(--text-color);
-  font-variation-settings: var(--text-font-weight);
+  font-variation-settings: var(--text-font-weight, "wght" 700);
   padding: 3.5% 3.5% 0 3.7%;
 }
 
@@ -314,7 +314,7 @@
 }
 
 .card__icon-button:focus-visible {
-  border-color: var(--stroke-color);
+  border-color: var(--stroke-color, #000);
 }
 
 .like-icon {
@@ -348,12 +348,12 @@
 }
 
 .modal {
-  background-color: var(--background-page);
-  font-family: var(--accent-font-family);
-  color: var(--text-color);
+  background-color: var(--background-page, #fff);
+  font-family:  var(--accent-font-family,"PressStart2P", monospace);
+  color: var(--text-color, #000);
   max-width: 356px;
   text-transform: uppercase;
-  border: 2px solid var(--stroke-color);
+  border: 2px solid var(--stroke-color, #000);
   line-height: 1.5;
   font-size: 14px;
   padding: 26px 30px;
