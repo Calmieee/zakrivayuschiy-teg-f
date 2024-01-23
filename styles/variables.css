@@ -1,10 +1,6 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
 :root {
-  --main-font-family: "Inter", sans-serif;
-  --accent-font-family: "PressStart2P", monospace;
-  --like-contour-color: var(--text-color);
-  --like-sparks-color: #f00;
   --background-page: #FFF;
   --header-background: var(--background-page);
   --mix-blend-color: var(--background-page);
@@ -22,4 +18,8 @@
   --text-color: #000;
   --stroke-color: var(--text-color);
   --button-text-color: var(--background-page);
+  --main-font-family: "Inter", sans-serif;
+  --accent-font-family: "PressStart2P", monospace;
+  --like-contour-color: var(--text-color);
+  --like-sparks-color: #f00;
 }
