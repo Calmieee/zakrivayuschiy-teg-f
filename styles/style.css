@@ -271,12 +271,13 @@
   font-size: 18px;
   color: var(--text-color);
   font-variation-settings: var(--text-font-weight, "wght" 700);
-  padding: 3.5% 3.5% 0 3.7%;
+  padding: 3.6% 3.5% 0 3.7%;
+  line-height: 116.667%;
 }
 
 @media (width < 400px) {
   .card-description {
-    padding: 7% 7% 0 6.6%;
+    padding: 6.82% 7% 0 6.6%;
   }
   #mobile-fix {
     padding-right: 7.9%;
